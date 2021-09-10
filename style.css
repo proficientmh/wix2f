@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* 
+font name
+======================
+    font-family: 'Poppins', sans-serif;
+=======================
+*/
+
+.container {
+    width: 65%;
+}
+
+.all-sec-part {
+    overflow: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* 
+======================
+    header
+=======================
+*/
+
+.header-area {
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 10000 !important;
+}
+
+.header svg {
+    width: 30px;
+    height: 30px;
+    fill: #2c53a2;
+}
+
+.header h5 {
+    display: inline-block;
+    font-size: 21px;
+    color: #2c53a2;
+    font-weight: 900;
+    margin-top: 29px;
+    padding-left: 8px;
+    margin-bottom: 29px;
+}
+
+
+/* 
+======================
+    top-1
+=======================
+*/
+
+.top-1 {
+    position: relative;
+}
+
+.top-1 img {
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .8);
+    width: 50%;
+    padding-left: 260px;
+    bottom: 0;
+    padding-top: 26%;
+}
+
+.content h6 {
+    font-size: 15px;
+    color: #2c53a2;
+    word-spacing: 4px;
+    line-height: 24px;
+}
+
+.content h3 {
+    font-size: 50px;
+    color: #2c53a2;
+    font-weight: 900;
+}
+
+
+/* 
+======================
+ top-1 down text
+=======================
+*/
+
+.down-text {
+    padding: 125px 0px;
+}
+
+.down-text h4 {
+    font-size: 40px;
+    color: #2c53a2;
+    font-weight: 900;
+}
+
+.down-text p {
+    font-size: 20px;
+}
+
+.top-2 img {
+    width: 100%;
+}
+
+
+/* 
+======================
+ gallary text
+=======================
+*/
+
+.pp {
+    padding-bottom: 10px;
+}
+
+.pp p {
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+/* 
+======================
+ gallary
+=======================
+*/
+
+.gallary {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.gallary .item {
+    position: relative;
+    margin: 12px;
+}
+
+.imgoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(128, 128, 128, .5);
+    visibility: hidden;
+}
+
+.item {
+    display: inline-block;
+}
+
+.item :hover .imgoverlay {
+    visibility: visible;
+}
+
+
+/* 
+======================
+ footer text
+=======================
+*/
+
+.last {
+    background-color: #AABCE0;
+}
+
+.ll {
+    padding-bottom: 40px;
+    padding-top: 65px;
+}
+
+.ll p {
+    font-size: 15px;
+    line-height: 32px;
+    color: #2F2E2E;
+}
+
+
+/* 
+======================
+ footer
+=======================
+*/
+
+.la {
+    padding-top: 37px;
+    padding-bottom: 20px;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix+.container-fluid {
+    padding-top: 70px;
+}
